@@ -75,12 +75,13 @@ function App() {
   }, []);
 
   return (
-    <div className="text-center my-2">
+    <div>
       <AnimatedCursor
         color="111,0,255"
         outerAlpha={0.2}
         innerScale={0.7}
         outerScale={5}
+        zIndex={-200}
       />
       <Particles options={options} init={particlesInit} />
       <RouterProvider router={router} />

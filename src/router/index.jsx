@@ -23,6 +23,22 @@ const router = createBrowserRouter([
       </RootLayout>
     ),
   },
+  {
+    path: "/contact",
+    element: (
+      <RootLayout>
+        <Contact />
+      </RootLayout>
+    ),
+  },
+  {
+    path: "/projects",
+    element: (
+      <RootLayout>
+        <Projects />
+      </RootLayout>
+    ),
+  },
 ]);
 
 export default router;
