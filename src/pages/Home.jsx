@@ -12,6 +12,7 @@ const Home = () => {
         <img
           src="img/profile.png"
           alt="profile_pic"
+          loading="lazy"
           className="md:w-[150px] w-[100px] md:h-[150px] h-[100px] object-cover max-w-full rounded-full  fade-opacity"
         />
         <div>
