@@ -81,7 +81,6 @@ function App() {
         outerAlpha={0.2}
         innerScale={0.7}
         outerScale={5}
-        zIndex={-200}
       />
       <Particles options={options} init={particlesInit} />
       <RouterProvider router={router} />

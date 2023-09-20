@@ -22,7 +22,7 @@
 
 
 .fade-opacity {
-  animation: fadeUpName ease-in-out 1s;
+  animation: fadeUpName ease-in-out 2s;
 }
 
 @keyframes fadeUpName {
