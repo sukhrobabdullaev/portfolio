@@ -37,7 +37,10 @@
   opacity: 0;
   transition: 0.3s;
 }
-
+.is-active {
+  color: rgb(111, 0, 255);
+  opacity: 0.7;
+}
 .nav-item:not(.is-active):hover:before {
   opacity: 1;
   bottom: 0;
@@ -58,42 +61,11 @@
   border-radius: 8px 8px 0 0;
 }
 
-/* menu bttn */
-/* ... Your existing styles ... */
-
 .menu-button {
-  display: none; /* Hide the menu button on larger screens */
-}
-
-.mobile-menu {
-  position: absolute;
-  top: 60px;
-  right: 60px;
-  background-color: #fff;
   display: none;
-  flex-direction: column;
-  box-shadow: 0 10px 40px rgba(159, 162, 177, 0.8);
-  border-radius: 8px;
-  overflow: hidden;
-  z-index: 10;
 }
-
-.mobile-menu-open {
-  display: flex;
-  animation: slideIn 0.3s ease-in-out;
-}
-
-.mobile-menu-item {
-  padding: 10px 20px;
-  text-decoration: none;
-  color: #83818c;
-  transition: 0.3s;
-  font-weight: 500;
-  font-family: "Mooli", sans-serif;
-}
-
-.mobile-menu-item:hover {
-  color: #333;
+.mobile-menu {
+  display: none;
 }
 
 /* ... Your existing styles ... */
@@ -117,6 +89,35 @@
     box-shadow: 0 10px 40px rgba(159, 162, 177, 0.8);
     border-radius: 50%;
     padding: 5px;
+  }
+  .mobile-menu {
+    position: absolute;
+    top: 60px;
+    right: 60px;
+    background-color: #fff;
+    flex-direction: column;
+    box-shadow: 0 10px 40px rgba(159, 162, 177, 0.8);
+    border-radius: 8px;
+    overflow: hidden;
+    z-index: 10;
+  }
+
+  .mobile-menu-open {
+    display: flex;
+    animation: slideIn 0.3s ease-in-out;
+  }
+
+  .mobile-menu-item {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #83818c;
+    transition: 0.3s;
+    font-weight: 500;
+    font-family: "Mooli", sans-serif;
+  }
+
+  .mobile-menu-item:hover {
+    color: #333;
   }
 }
 

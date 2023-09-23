@@ -3,7 +3,7 @@ import RootLayout from "../layouts/RootLayout";
 
 import Home from "../pages/Home";
 import Blog from "../pages/Blog";
-import Contact from "../pages/Contact";
+import Experience from "../pages/Eperience";
 import Projects from "../pages/Projects";
 
 const router = createBrowserRouter([
@@ -24,18 +24,18 @@ const router = createBrowserRouter([
     ),
   },
   {
-    path: "/contact",
+    path: "/work",
     element: (
       <RootLayout>
-        <Contact />
+        <Projects />
       </RootLayout>
     ),
   },
   {
-    path: "/projects",
+    path: "/experience",
     element: (
       <RootLayout>
-        <Projects />
+        <Experience />
       </RootLayout>
     ),
   },

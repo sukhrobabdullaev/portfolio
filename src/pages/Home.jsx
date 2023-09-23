@@ -7,19 +7,19 @@ import { motion } from "framer-motion";
 
 const Home = () => {
   return (
-    <div className=" md:px-20 px-8 py-[200px] h-[85vh] gap-4 md:flex md:items-center md:justify-between">
+    <div className="md:px-20 px-8 py-[200px] h-[85vh] gap-4 md:flex md:items-center md:justify-between">
       <div className="flex items-center md:gap-5 gap-2 mb-5">
         <img
           src="img/profile.png"
           alt="profile_pic"
           loading="lazy"
-          className="md:w-[150px] w-[100px] md:h-[150px] h-[100px] object-cover max-w-full rounded-full  fade-opacity"
+          className="md:w-[150px] w-[100px] md:h-[150px] h-[100px] object-cover max-w-full rounded-full fade-opacity"
         />
         <div>
           <h1 className="md:text-[40px] text-lg font-semibold  fade-opacity md:mb-4">
             Sukhrob Abdullaev
           </h1>
-          <p className="md:text-[20px] text-base text-gray-500 fade-opacity">
+          <p className="md:text-[20px] text-base text-gray-500 fade-opacityNext">
             Frontend engineer
           </p>
         </div>
