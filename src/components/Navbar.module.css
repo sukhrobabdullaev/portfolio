@@ -68,8 +68,6 @@
   display: none;
 }
 
-/* ... Your existing styles ... */
-
 @keyframes slideIn {
   from {
     transform: translateY(-100%);

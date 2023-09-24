@@ -22,7 +22,7 @@ export const ImageWithDescription = ({
           src={imageUrl}
           alt={imageUrl}
           loading="lazy"
-          className="w-[600px] fade-opacityNext md:w-full"
+          className="w-[600px] fade-opacityNext md:w-full rounded"
         />
         <div
           className={`${
