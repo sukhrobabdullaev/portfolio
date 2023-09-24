@@ -54,3 +54,31 @@
     opacity: 1;
   }
 }
+.fade-opacityRight {
+  animation: fadeUpNameRight ease-in-out 2s;
+}
+
+@keyframes fadeUpNameRight {
+  0% {
+    opacity: 0;
+    transform: translateX(200px);
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.fade-opacityLeft {
+  animation: fadeUpNameLeft ease-in-out 2s;
+}
+
+@keyframes fadeUpNameLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-200px);
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
