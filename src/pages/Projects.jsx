@@ -25,10 +25,10 @@ const Projects = () => {
     },
     {
       id: 4,
-      title: "Weather App - Personal Projects",
-      imageUrl: "/projects/Nayzak_E-Commerce.png",
+      title: "Translator - Personal Projects",
+      imageUrl: "/projects/Tranlator_app.png",
       description: "Description for Image 4",
-      preview: "",
+      preview: "https://translator-beige-six.vercel.app/",
     },
   ];
 
